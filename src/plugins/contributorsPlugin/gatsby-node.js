@@ -39,7 +39,7 @@ exports.sourceNodes = async (
     const loginsSet = new Set(logins)
 
     const profiles = await Promise.all(
-        loginsSet.map(login =>
+        [...loginsSet].map(login =>
             github.get(`/users/${login}`, options).then((res) => res.body)
         )
     );
