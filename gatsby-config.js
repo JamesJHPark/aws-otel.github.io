@@ -28,42 +28,42 @@ module.exports = {
       resolve: require.resolve(`./src/plugins/contributorsPlugin`),
       options: {
         repo: "aws-observability/aws-otel-test-framework",
-        token: process.env.GH_API_KEY,
+        token: process.env.repo_token,
       }
     },
     {
       resolve: require.resolve(`./src/plugins/contributorsPlugin`),
       options: {
         repo: "aws-observability/aws-otel-collector",
-        token: process.env.GH_API_KEY,
+        token: process.env.repo_token,
       }
     },
     {
       resolve: require.resolve(`./src/plugins/contributorsPlugin`),
       options: {
         repo: "aws-observability/aws-otel-java-instrumentation",
-        token: process.env.GH_API_KEY,
+        token: process.env.repo_token,
       }
     },
     {
       resolve: require.resolve(`./src/plugins/contributorsPlugin`),
       options: {
         repo: "aws-observability/aws-otel-js",
-        token: process.env.GH_API_KEY,
+        token: process.env.repo_token,
       }
     },
     {
       resolve: require.resolve(`./src/plugins/contributorsPlugin`),
       options: {
         repo: "aws-observability/aws-otel-community",
-        token: process.env.GH_API_KEY,
+        token: process.env.repo_token,
       }
     },
     {
       resolve: require.resolve(`./src/plugins/contributorsPlugin`),
       options: {
         repo: "aws-observability/aws-otel-playground",
-        token: process.env.GH_API_KEY,
+        token: process.env.repo_token,
       }
     },
     `gatsby-transformer-yaml`,
